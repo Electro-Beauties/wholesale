@@ -17,8 +17,9 @@ body {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    width: 90vw;          /* Image width = 90% of viewport width */
+    max-width: 600px;     /* Optional: cap the size for larger screens */
+    height: auto;         /* Maintain aspect ratio */
     margin-bottom: 20px;
     border-radius: 10px;
 }
