@@ -1,4 +1,4 @@
-import images from '/js/data.js';
+import { images } from '/js/data.js';
 
 const btn = document.getElementById("newImageBtn");
 const img = document.getElementById("randomImage");
