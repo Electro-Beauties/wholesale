@@ -5,13 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wholesale Babes</title>
     <link rel="stylesheet" href="/css/main.css">
+    <style>
+        body { display: none; } /* hide content initially */
+    </style>
 </head>
 <body>
     <div class="container">
         <img id="randomImage" src="https://images2.imgbox.com/1f/96/sXy7dp2R_o.jpg" alt="Random Image">
-        
     </div>
     <button id="newImageBtn">Next Image</button>
     <script type="module" src="/js/main.js"></script>
-</body>
-</html>
+
+    <script>
+        const password = "mypassword"; // <-- set your password here
+        let userPass = prompt("Enter password to access this page:");
+
+        if(userPass === password){
+            document.body.style.display = "block"; // show content
+        } else {
+            alert("Incorrect password. You cannot view this page.");
+            document.body.innerHTML = "<h2>Access Denied</h2>";
+        }
+    </script>
+</bodbodbodbodbodbodbodbodbodbodbodbodbdbobododmdmymypypapasasssswswowor
