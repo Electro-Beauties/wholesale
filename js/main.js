@@ -1,3 +1,5 @@
+import images from './images.js';
+
 const btn = document.getElementById("newImageBtn");
 const img = document.getElementById("randomImage");
 
